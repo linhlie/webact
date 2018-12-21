@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sup li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    padding: 43px 0;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: #222222;
+    color: white;
+    font-size: 17px;
+}
+
+ul.sub>li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul.sub>li {
+    padding: 5px 0px;
+    list-style: none;
+}
+
+ul.sub>li:hover {
+    color: white;
+    font-weight: 36;
+    background: #00000045;
+    border: none;
+}
+
+li>ul.sub {
+    list-style: none;
+    padding-left: 25px;
+    /* visibility: hidden;
+    opacity: 0; */
+}
+
+i.fa.fa-file {
+    padding-right: 5px;
+    font-size: 17px;
+}
+
+i.fa.fa-dashboard {
+    font-size: 17px;
+    padding-right: 5px;
+    color: white;
+}
+
+html,body {
+    height: 100%;
+}
+
+.sup>li {
+    padding: 20px 30px;
+    border-bottom: 1px solid white;
+    font-size: 16px;
+    font-family: unset;
+    cursor: pointer;
+}
+
+.sup>li:hover {
+    background: #050505;
+}
+
+.sup>li:first-child {
+    background: #03a9f4bd;
+}
+
+.sup>li:first-child:hover {
+    background: #000000e6;
+}
+
+ul.sup {
+    height: 100%;
+    list-style: none;
+    color: white;
+}
+
+.nav_left {
+    width: 22%;
+    height: 100%;
+    background: #000000b8;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+}
+
+nav.navbar.navbar-default.navbar-inverse {
+    margin-bottom: 0px;
+}
+
+.left>ul {
+    height: 100%;
+    list-style: none;
+}
+
+.left {background: gray;height: 100%;margin-top: 0px;}
+i.fa.fa-gear.passAdmin,.logout {
+    padding-right: 5px;
+}
+i.fa.fa-user {
+    padding-right: 5px;
+}
